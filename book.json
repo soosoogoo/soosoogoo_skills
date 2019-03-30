@@ -16,7 +16,7 @@
 
     "plugins" : [ 
         "simple-page-toc",
-        ""chapter-fold""
+        "chapter-fold",
         "insert-logo"
     ],
     
