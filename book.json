@@ -19,9 +19,7 @@
         "insert-logo"
     ],
     
-    "sidebar" : {
-        "Home" : "https://www.baidu.com"
-    },
+  
     
     "pluginsConfig": {
         "simple-page-toc": {
