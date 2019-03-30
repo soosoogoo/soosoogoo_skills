@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "This file file serves as your book's preface, a great place to describe your book's content and ideas.",
+  "main": "index.js",
+  "dependencies": {
+    "gitbook-plugin-betterpagetitles": "^0.0.3",
+    "gitbook-plugin-contributors-each-page": "^1.0.1",
+    "gitbook-plugin-insert-logo": "^0.1.5",
+    "gitbook-plugin-page-treeview": "^3.0.0",
+    "gitbook-plugin-simple-page-toc": "^0.1.2"
+  },
+  "devDependencies": {
+    "gitbook-plugin-chapter-fold": "0.0.4",
+    "gitbook-plugin-expandable-chapters": "^0.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
