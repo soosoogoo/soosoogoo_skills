@@ -405,7 +405,8 @@ body {
     position: relative;
     margin: 2em 0;
     padding: 9pt 24px 9pt 30px;
-    border-left: 4px solid #f66;
+    /*border-left: 4px solid #f66;*/
+    border-left: 4px solid grey;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     background-color: #f8f8f8;
@@ -421,7 +422,8 @@ body {
     width: 20px;
     height: 20px;
     border-radius: 100%;
-    background-color: grey;
+    /*background-color: #f66;*/
+    background-color:grey;
     color: #fff;
     content: "!";
     text-align: center;
