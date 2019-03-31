@@ -9,6 +9,7 @@
     
 
 
+#### TYPE含义
 列 | json name | 说明
 ---|---|--
 id | select_id | 查询标识符
