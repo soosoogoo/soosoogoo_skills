@@ -6,4 +6,5 @@
 * [Mysql](mysql.md)
   * [一致性,有效性](mysql/yi-zhi-60272c-you-xiao-xing.md)
     * [事务](mysql/yi-zhi-60272c-you-xiao-xing/shi-wu.md)
+  * [Explain速查](mysql/explainsu-cha.md)
 
