@@ -493,7 +493,8 @@ h1 {
     color: #2674BA;
 }
 h2 {
-    color: #0099CC;
+    background-color: #2674BA;
+
 }
 h3 {
     color: #F77A0B;
@@ -505,6 +506,6 @@ h5 {
     color: #444444;
 }
 th {
-    background-color: #2674BA;
+    color: #0099CC;
     color: white;
 }
