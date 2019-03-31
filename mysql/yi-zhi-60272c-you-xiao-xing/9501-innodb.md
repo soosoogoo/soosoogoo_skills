@@ -77,18 +77,18 @@ set autocommit=0;
 ```
 select * from soosoogoo_lock where id = 5 for update;
 ```
-![记录锁.png](http://note.youdao.com/yws/res/13169/WEBRESOURCE7ed6d041bc708108e8f92bb8dca8ca21)
+![记录锁](https://ws2.sinaimg.cn/large/006tKfTcly1g1m48o1clyj31520o6q9z.jpg)
 
 
 ### Gap Lock - 间隙锁
 > 间隙锁，锁定一个范围，但不包括记录本身。GAP锁的目的，是为了防止同一事务的两次当前读，出现幻读的情况。
 
-![间隙锁.png](http://note.youdao.com/yws/res/13166/WEBRESOURCEe4efffc31ff10d4f9badee6688c44f1a)
+![image-20190331174324740](https://ws1.sinaimg.cn/large/006tKfTcly1g1m4a23b7gj314q0u04e9.jpg)
 
 ### Next-key Lock (间隙锁+记录锁)
 
 
-![nextkeylock.png](http://note.youdao.com/yws/res/13177/WEBRESOURCEce9b4318be88f118741d8947d7bcc527)
+![image-20190331174329159](https://ws2.sinaimg.cn/large/006tKfTcly1g1m4a4vhbwj314q0u04e9.jpg)
 
 
 
