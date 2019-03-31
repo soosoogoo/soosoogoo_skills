@@ -497,7 +497,8 @@ h2 {
 
 }
 h3 {
-    color: #F77A0B;
+    /*color: #F77A0B;*/
+    color: #42b983;
 }
 h4 {
     color: #662D91;
@@ -509,3 +510,10 @@ h5 {
     /*background-color: #0099CC;*/
     /*color: white;*/
 /*}*/
+
+color: #42b983;
+font-weight: 600
+}
+.markdown-section a:hover {
+    padding: 0 .5rem;
+    color: #3e915f;
