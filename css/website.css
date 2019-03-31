@@ -11,6 +11,11 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+.book .without-animation .with-summary .font-size-2 .font-family-0{
+    font-size: 1.6rem;
+
+}
+
 .book.font-size-2 .book-body .page-inner section {
     font-size: 1.4rem;
 }
