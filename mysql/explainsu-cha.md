@@ -1,8 +1,4 @@
-官方手册地址 http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html
-
-
-
-
+**官方手册地址** [http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html](http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html)
 
 列 \| json name \| 说明
 
@@ -16,7 +12,7 @@ table \| table\_name \| 查询表的名称
 
 partitions \| partitions \| 匹配的分区
 
-type \| access\_type \| 链接类型 
+type \| access\_type \| 链接类型
 
 possible\_keys \| possible\_keys \| 可能使用的索引
 
@@ -26,19 +22,11 @@ key\_len \| key\_length \| 所选键的长度
 
 ref \| ref \| 列与索引进行比较
 
-rows \| rows	\| 估计要检查的行
+rows \| rows    \| 估计要检查的行
 
-filtered \| filtered	\| 表条件过滤的行的百分比
+filtered \| filtered    \| 表条件过滤的行的百分比
 
 Extra \| none \| 附加信息
-
-
-
-
-
-
-
-
 
 \#\#\#\# TYPE含义
 
@@ -58,7 +46,7 @@ fulltext \| 连接使用FULLTEXT 索引执行。
 
 ref\_or\_null \| 这种连接类型就像 ref，但是另外MySQL对包含NULL值的行进行额外的搜索。&lt;br&gt;这种连接类型优化最常用于解析子查询。
 
-index\_merge \| 此连接类型表示使用索引合并优化\[详情\]\(http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/index-merge-optimization.com.coder114.cn.html\)
+index\_merge \| 此连接类型表示使用索引合并优化\[详情\]\([http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/index-merge-optimization.com.coder114.cn.html\](http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/index-merge-optimization.com.coder114.cn.html\)\)
 
 index\_subquery \| 在 某 些 IN 查 询 中 使 用 此 种 类 型 ,&lt;br&gt; 与 unique\_subquery 类似,但是查询的是非唯一 性索引:&lt;br&gt; value IN \(SELECT key\_column FROM single\_table WHERE some\_expr\)
 
@@ -67,6 +55,4 @@ range \| 扫描给定范围 例如:&lt;br&gt; =， &lt;&gt;， &gt;， &gt;=， 
 index \| 使用默认主键索引,如果where 有指定其他索引&lt;br&gt; 则表示没有生效
 
 ALL \| 扫全表  最差
-
-
 
