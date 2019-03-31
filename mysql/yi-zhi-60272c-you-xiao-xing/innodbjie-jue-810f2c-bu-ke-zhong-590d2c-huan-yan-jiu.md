@@ -1,24 +1,22 @@
 #### Mysql RC 问题
 
-![图片.png](http://note.youdao.com/yws/res/13896/WEBRESOURCE21c829c33571bbf488bf38a28d547c31)
+![RUC-RC问题](https://ws3.sinaimg.cn/large/006tKfTcly1g1lwzkcjg7j312d0u0nam.jpg)
 
 
 #### Mysql RR 问题
 
-![rr问题.png](http://note.youdao.com/yws/res/13909/WEBRESOURCE7f844ebad3f408af88ec3ce4eec60775)
+![RR问题](https://ws1.sinaimg.cn/large/006tKfTcly1g1lwz9jj30j311h0u0qhi.jpg)
 
 
 
 #### RC 解决脏读过程
 
-![rc解决脏读.png](http://note.youdao.com/yws/res/13913/WEBRESOURCEea8ca6f2e4ce7fcbb0e3d8d9f203ab36)
+![RC解决脏读](https://ws3.sinaimg.cn/large/006tKfTcly1g1lwzy6f0sj31510u01kx.jpg)
 
 
 #### RR解决 不可重复读 及 解决幻读过程
 
-![rr解决不可重复读和幻读.png](http://note.youdao.com/yws/res/13920/WEBRESOURCE4a4b30fab5abaf78d780e41c0cf7f8b8)
-
-
+![RR解决不可重复读和幻读](https://ws3.sinaimg.cn/large/006tKfTcly1g1lx19t1mfj313l0u0ayz.jpg)
 
 #### 思考
 
@@ -33,7 +31,7 @@ commit;
 
 2,事如果还有事务ID=6,7,8,9,10… 呢,有多少版本,事务快照怎么删除和回收?开销大的原因
 
-![rr下疑问.png](http://note.youdao.com/yws/res/13933/WEBRESOURCE9a49eda3b6a855fb85948c4519b52397)
+![RR下疑问](https://ws1.sinaimg.cn/large/006tKfTcly1g1lx1nzwl9j31100a4gpb.jpg)
 
 
 3,RR下为什么 select xxx ==where id = 1== 和  update xxx ==where id = 1==  产生的结果不一致? (MVCC)
