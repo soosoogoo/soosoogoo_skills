@@ -1,7 +1,7 @@
 **官方手册地址** http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html
   
 
-### 结果列说明
+## 结果列说明
 
 列 | json name | 说明
 ---|---|--
@@ -21,7 +21,7 @@ Extra | none | 附加信息
 
 
 
-#### TYPE含义
+## TYPE含义
 
 值 | 说明
 ---|---|--
