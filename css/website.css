@@ -15,8 +15,8 @@ body {
 }
 
 
-.search-noresults{
-    font-size: 1.4rem;
+.page-inner section{
+    font-size: 1.4rem !important;
 }
 
 
