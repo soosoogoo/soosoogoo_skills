@@ -5,6 +5,12 @@ body {
 .book.font-family-0 {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+.page-inner {
+    position: relative;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px 15px 40px 15px;
+}
 
 .book .book-summary {
     width: 268px;
@@ -143,12 +149,7 @@ body {
 .book .book-body .body-inner {
     /*top: 50px*/
 }
-.page-inner {
-    position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px 15px 40px 15px;
-}
+
 .book .book-body .body-inner .book-header {
     will-change: padding-left;
     -webkit-transform: translateZ(0);
