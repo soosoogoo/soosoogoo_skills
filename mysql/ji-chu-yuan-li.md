@@ -2,9 +2,7 @@
 
 > 逐步更新中
 
-![图片.png](http://note.youdao.com/yws/res/13328/WEBRESOURCE26b0dd83cf4f65f27c0eb741eb6dd3e6)
-
-
+![image-20190331191003688](https://ws4.sinaimg.cn/large/006tKfTcly1g1m6s8e8vnj30u00y1gu8.jpg)
 
 > 如果没有特殊需求 , 请务必使用InnoDB
 
