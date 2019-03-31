@@ -5,77 +5,42 @@
 
 
 
-    | atomicity<br/>(原子性)  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 一个事务必须被视为一个不可分割的最小工作单元，整个事务中的所有操作要么全部提交成功，<br/>要么全部失败回滚，对于一个事务来说，不可能只执行其中的一部分操作，这就是事务的原子性。 |
-    | :----------------------------------------------------------- | :----------------------------------------------------------- |
-    | **consistency<br/>(一致性)**                                 | 数据库总是从一个一致性的状态转换到另外一个一致性的状态。在前面的例子中，一致性确保了，<br/>即使在执行第三、四条语句之间时系统崩溃，支票账户中也不会损失200美元，因为事务最终没有提交，<br/>所以事务中所做的修改也不会保存到数据库中。<br/> |
-    | **isolation<br/>(隔离性)**                                   | 通常来说，一个事务所做的修改在最终提交以前，对其他事务是不可见的。<br/>在前面的例子中，当执行完第三条语句、第四条语句还未开始时，<br/>此时有另外一个账户汇总程序开始运行，则其看到的支票账户的余额并没有被减去200美元。<br/>后面我们讨论隔离级别（Isolation level）的时候，会发现为什么我们要说“通常来说”是不可见的<br/> |
-    | **durability<br/>(持久性)**                                  | 一旦事务提交，则其所做的修改就会永久保存到数据库中。此时即使系统崩溃，修改的数据也不会丢失。<br/>持久性是个有点模糊的概念，因为实际上持久性也分很多不同的级别。 |
-    > 手册:https://dev.mysql.com/doc/refman/8.0/en/mysql-acid.html
-
-    > 手册:https://dev.mysql.com/doc/refman/8.0/en/glossary.html#ACID
-
-    <br/>
-
-    ### 事务隔离级别(isolation level)
-    | 名称                                          | 脏读 | 不可重复读 | 幻读 | 加锁读 |
-    | :-------------------------------------------- | ---- | ---------- | ---- | ------ |
-    | 读  - 未提交 Read Uncommit  (别名: 快照读)    | Y    | Y          | Y    | N      |
-    | 读 - 已提交 Read Commit <br>(别名:不可重复读) | N    | Y          | Y    | N      |
-    | 可重复读 Repeatable  Read                     | N    | N          | Y    | N      |
-    | 串行化                                        | N    | N          | N    | Y?     |
+    官方手册地址 http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html
 
 
-    > 手册:https://dev.mysql.com/doc/refman/8.0/en/innodb-transaction-isolation-levels.html
-
-    <br/>
-
-    ### 事务日志
-
-    | 事务日志 | 说明                                         |
-    | -------- | -------------------------------------------- |
-    | redo log | redo log buffer , redo log file 事务提交日志 |
-    | undo log | 事务回滚日志                                 |
-
-
-    ##### 对事务日志,以及binlog 感兴趣的同学可以参考 :
-
-    > undo官方手册 : https://dev.mysql.com/doc/refman/8.0/en/innodb-redo-log.html
-
-    > redo 官方手册 : https://dev.mysql.com/doc/refman/8.0/en/innodb-undo-logs.html
-
-    > 博客:
-    > https://www.cnblogs.com/f-ck-need-u/archive/2018/05/08/9010872.html#auto_id_16
+列 | json name | 说明
+---|---|--
+id | select_id | 查询标识符
+select_type | None | 查询类型
+table | table_name | 查询表的名称
+partitions | partitions | 匹配的分区
+type | access_type | 链接类型 
+possible_keys | possible_keys | 可能使用的索引
+key | key | 最终使用的索引
+key_len | key_length | 所选键的长度
+ref | ref | 列与索引进行比较
+rows | rows	| 估计要检查的行
+filtered | filtered	| 表条件过滤的行的百分比
+Extra | none | 附加信息
 
 
-    <br/>
-
-    ### 事务操作
-
-    | 名称     | 操作                      |
-    | -------- | ------------------------- |
-    | 开启事务 | begin;/start transaction; |
-    | 事务结束 |                           |
-    | 提交事务 | commit;                   |
-    | 回滚事务 | rollback                  |
-
-    > 手册: <https://dev.mysql.com/doc/refman/8.0/en/innodb-autocommit-commit-rollback.html>
-
-    <br/>
-
-    ### 常用操作
-
-    ```
-    #设置隔离级别
-    SET TRANSACTION ISOLATION LEVEL READ COMMITTED；
-    SET SESSION TRANSACTION ISOLATION LEVEL READ COMMITTED；
 
 
-    #设置全局隔离级别
-    SET GLOBAL TRANSACTION ISOLATION LEVEL READ COMMITTED；
+#### TYPE含义
+值 | 说明
+---|---|--
+system | 该表只有一行（=系统表）。这是const连接类型的特例
+const | 该表至多有一个匹配的行，在查询开始时读取。<br>由于只有一行，因此该行中列的值可以被优化器的其余部分视为常量。<br> const表格非常快，因为它们只读一次。
+eq_ref | 从这个表读取一行，对于前面的表中的每一行的组合。<br>除了 system和 const类型，这是最好的连接类型。<br>当连接使用索引的所有部分并且索引是a PRIMARY KEY或UNIQUE NOT NULL索引时使用它。
+ref | 所有具有匹配索引值的行都从这个表中读取，<br>用于以前表中的每个行的组合。ref如果连接只使用键的最左边的前缀，<br>或者如果键不是a PRIMARY KEY或 UNIQUE索引<br>（换句话说，如果连接不能基于键值选择单个行），则使用该键。<br>如果使用的键只匹配几行，这是一个很好的连接类型。
+fulltext | 连接使用FULLTEXT 索引执行。
+ref_or_null | 这种连接类型就像 ref，但是另外MySQL对包含NULL值的行进行额外的搜索。<br>这种连接类型优化最常用于解析子查询。
+index_merge | 此连接类型表示使用索引合并优化[详情](http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/index-merge-optimization.com.coder114.cn.html)
+index_subquery | 在 某 些 IN 查 询 中 使 用 此 种 类 型 ,<br> 与 unique_subquery 类似,但是查询的是非唯一 性索引:<br> value IN (SELECT key_column FROM single_table WHERE some_expr)
+range | 扫描给定范围 例如:<br> =， <>， >， >=， <， <=， IS NULL， <=>， BETWEEN，或 IN()
+index | 使用默认主键索引,如果where 有指定其他索引<br> 则表示没有生效
+ALL | 扫全表  最差
 
-    #查看隔离级别
-    SELECT @@tx_isolation;
-    ```
 
 
 
