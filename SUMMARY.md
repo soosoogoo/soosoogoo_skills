@@ -12,4 +12,5 @@
     * [事务](mysql/yi-zhi-60272c-you-xiao-xing/shi-wu.md)
     * [MVCC](mysql/yi-zhi-60272c-you-xiao-xing/mvcc.md)
     * [锁-innoDB](mysql/yi-zhi-60272c-you-xiao-xing/9501-innodb.md)
+    * [InnoDB解决脏,不可重复,幻研究](mysql/yi-zhi-60272c-you-xiao-xing/innodbjie-jue-810f2c-bu-ke-zhong-590d2c-huan-yan-jiu.md)
 
