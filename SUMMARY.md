@@ -19,4 +19,6 @@
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
+  * [安装过程](da-shu-ju/an-zhuang-guo-cheng.md)
+    * [Cloudera Manager](da-shu-ju/an-zhuang-guo-cheng/cloudera-manager.md)
 
