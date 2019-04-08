@@ -18,4 +18,5 @@
   * [gitbook](chapter1/gitbook.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
+  * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
 
