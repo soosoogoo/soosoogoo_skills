@@ -24,4 +24,5 @@
   * [安装过程](da-shu-ju/an-zhuang-guo-cheng.md)
     * [Cloudera Manager](da-shu-ju/an-zhuang-guo-cheng/cloudera-manager.md)
     * [Canal](da-shu-ju/an-zhuang-guo-cheng/canal.md)
+* [Java](java.md)
 
