@@ -15,7 +15,7 @@
     * [锁-innoDB](mysql/yi-zhi-60272c-you-xiao-xing/9501-innodb.md)
     * [InnoDB解决脏,不可重复,幻研究](mysql/yi-zhi-60272c-you-xiao-xing/innodbjie-jue-810f2c-bu-ke-zhong-590d2c-huan-yan-jiu.md)
 * [工具类](chapter1.md)
-  * [gitbook](chapter1/gitbook.md)
+  * [Gitbook](chapter1/gitbook.md)
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
 * [大数据](da-shu-ju.md)
