@@ -7,7 +7,8 @@
   * [Gitbook](chapter1/gitbook.md)
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
-* [Mysql]
+* [Mysql](da-shu-ju.md)
+
   * [Profiling速查](mysql/profilingsu-cha.md)
   * [Explain速查](mysql/explainsu-cha.md)
   * [基础原理](mysql/ji-chu-yuan-li.md)
