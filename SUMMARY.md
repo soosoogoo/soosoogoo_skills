@@ -10,7 +10,7 @@
 * [Mysql](mysql.md)
   * [Profiling速查](mysql/profilingsu-cha.md)
   * [Explain速查](mysql/explainsu-cha.md)
-  * [基础原理](-)
+  * [基础原理](ji-chu-yuan-li.md)
     * [update原理](mysql/ji-chu-yuan-li/updateyuan-li.md)
     * [索引](mysql/ji-chu-yuan-li/suo-yin.md)
   * [一致性,有效性](mysql/yi-zhi-60272c-you-xiao-xing.md)
