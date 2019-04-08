@@ -4,7 +4,7 @@
 * [读书笔记](du-shu-bi-ji.md)
   * [高性能Mysql](du-shu-bi-ji/gao-xing-neng-mysql.md)
 * [Mysql](mysql.md)
-  * Profiling速查
+  * [Profiling速查](mysql/profilingsu-cha.md)
   * [Explain速查](mysql/explainsu-cha.md)
   * [基础原理](mysql/ji-chu-yuan-li.md)
     * [update原理](mysql/ji-chu-yuan-li/updateyuan-li.md)
