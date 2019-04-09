@@ -35,7 +35,7 @@
               "style": "background: none; max-height: 30px; min-height: 30px"
            },
            "prism": {
-              "css": ["prismjs/themes/prism-tomorrow.css"] ,
+              "css": ["syntax-highlighting/assets/css/prism/prism-xonokai.css"] ,
               "lang":{"shell": "bash"}
           }
     }
