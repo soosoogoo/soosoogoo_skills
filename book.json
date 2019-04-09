@@ -16,7 +16,8 @@
 
     "plugins" : [ 
         "chapter-fold",
-        "insert-logo"
+        "insert-logo",
+        "-livereload"
     ],
     
   
