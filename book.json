@@ -14,7 +14,9 @@
         "website":"./css/website.css"
     },
 
-    "plugins" : [ 
+    "plugins" : [
+        "prism",
+         "-highlight", 
         "chapter-fold",
         "insert-logo",
         "-livereload"
