@@ -7,6 +7,7 @@
   * [Gitbook](chapter1/gitbook.md)
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
+  * [Cancal](chapter1/cancal.md)
 * [Mysql](mysql.md)
   * [Profiling速查](mysql/profilingsu-cha.md)
   * [Explain速查](mysql/explainsu-cha.md)
