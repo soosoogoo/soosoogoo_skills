@@ -32,6 +32,11 @@
             "insert-logo": {
               "url": "https://img.bafang.com/cdn/assets/imgs/MjAxODg/96EDF06B4F894B32B4E2BC5FDBB5B7C7.png",
               "style": "background: none; max-height: 30px; min-height: 30px"
-    }
+           },
+           "prism": {
+    "css": [
+      "prismjs/themes/prism-solarizedlight.css"
+    ]
+  }
     }
 }
