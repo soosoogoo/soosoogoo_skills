@@ -1,3 +1,6 @@
+
+https://maven.aliyun.com/mvn/search
+
 https://mvnrepository.com/artifact/com.alibaba.otter/canal.protocol/1.1.3
 
 
