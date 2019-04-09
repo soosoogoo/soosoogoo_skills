@@ -12,7 +12,7 @@ canal client: https://github.com/CanalClient/canal-go
 
 ### 安装步骤
 
-##### 下载deployer包
+
 
 ```shell
 https://github.com/alibaba/canal/releases
@@ -32,7 +32,7 @@ tar zxvf canal.deployer-1.1.2.tar.gz  -C /data/canal
 
 
 
-#####常用命令
+### 常用命令
 
 ```shell
 #启动
