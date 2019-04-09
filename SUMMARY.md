@@ -24,6 +24,7 @@
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
   * [Canal](mysql/canal.md)
     * [常见问题](mysql/canal/chang-jian-wen-ti.md)
+    * [安装过程](mysql/canal/an-zhuang-guo-cheng.md)
   * [安装过程](da-shu-ju/an-zhuang-guo-cheng.md)
     * [Cloudera Manager](da-shu-ju/an-zhuang-guo-cheng/cloudera-manager.md)
     * [Canal](da-shu-ju/an-zhuang-guo-cheng/canal.md)
