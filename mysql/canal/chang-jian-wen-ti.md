@@ -1,6 +1,6 @@
 ###### slave_master_info
 
-```
+```json
 SHOW command denied to user 'xxx'@'xxx' for table 'slave_master_info'
 ```
 
@@ -10,7 +10,7 @@ SHOW command denied to user 'xxx'@'xxx' for table 'slave_master_info'
 
 
 
-```
+```json
 #修改配置文件
 
 vim  /data/cancal/conf/example/instance.properties 
