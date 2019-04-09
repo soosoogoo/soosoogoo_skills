@@ -365,7 +365,7 @@ body {
 
 /* easyswoole */
 
-.markdown-section h1 {
+/*.markdown-section h1 {
     padding-bottom: 1rem;
     border-bottom: 1px dashed #ccc
 }
@@ -374,16 +374,16 @@ body {
     border-bottom: 1px solid #ddd
 }
 .markdown-section a {
-    padding: 0 .5rem;
+    padding: 0 .5rem;*/
     /*color: #42b983;*/
-    font-weight: 600;
+    /*font-weight: 600;
     color: #0099CC;
 
 }
 .markdown-section a:hover {
-    padding: 0 .5rem;
+    padding: 0 .5rem;*/
     /*color: #3e915f;*/
-    color: #2674BA;
+    /*color: #2674BA;
     text-decoration: none;
     font-weight: 600
 }
@@ -404,9 +404,9 @@ body {
 .markdown-section blockquote {
     position: relative;
     margin: 2em 0;
-    padding: 9pt 24px 9pt 30px;
+    padding: 9pt 24px 9pt 30px;*/
     /*border-left: 4px solid #f66;*/
-    border-left: 4px solid grey;
+    /*border-left: 4px solid grey;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
     background-color: #f8f8f8;
@@ -423,7 +423,7 @@ body {
     height: 20px;
     border-radius: 100%;
     /*background-color: #f66;*/
-    background-color:grey;
+    /*background-color:grey;
     color: #fff;
     content: "!";
     text-align: center;
@@ -441,7 +441,7 @@ body {
 }
 pre[class*=language-] {
     background-color: #fbfbfb
-}
+}*/
 .token.cdata,
 .token.comment,
 .token.doctype,
