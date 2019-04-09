@@ -15,7 +15,7 @@
     },
 
     "plugins" : [
-                "prism", "-highlight"
+                "prism", "-highlight",
 
         "chapter-fold",
         "insert-logo",
