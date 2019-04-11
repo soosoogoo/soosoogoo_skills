@@ -23,3 +23,6 @@ canal.instance.filter.black.regex=
 
 
 
+> ERROR c.a.otter.canal.server.netty.handler.SessionHandler - something goes wrong with channel
+>
+> 
