@@ -1,2 +1,1 @@
-IDEA 注册:
-http://idea.lanyus.com/
+IDEA 注册:http://idea.lanyus.com/
