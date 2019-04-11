@@ -23,6 +23,7 @@
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
+  * [Kylin](da-shu-ju/kylin.md)
   * [Canal](mysql/canal.md)
     * [常见问题](mysql/canal/chang-jian-wen-ti.md)
     * [安装过程](mysql/canal/an-zhuang-guo-cheng.md)
