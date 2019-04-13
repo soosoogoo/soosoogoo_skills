@@ -8,4 +8,4 @@ ETL 框架 : https://github.com/mara/data-integration
 ETL框架 : https://github.com/seanharr11/etlalchemy
 
 
-ETL 类库https://petl.readthedocs.io/en/stable/io.html
+ETL类库 : https://petl.readthedocs.io/en/stable/io.html
