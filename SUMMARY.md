@@ -31,5 +31,6 @@
     * [Cloudera Manager](da-shu-ju/an-zhuang-guo-cheng/cloudera-manager.md)
     * [Canal](da-shu-ju/an-zhuang-guo-cheng/canal.md)
   * [ETL](da-shu-ju/etl.md)
+    * [petl](da-shu-ju/etl/petl.md)
 * [Java](java.md)
 
