@@ -1,6 +1,6 @@
 美团ETL框架: https://zhuanlan.zhihu.com/p/24647817
 
-ETL 框架: https://github.com/agronholm/apscheduler
+调度 框架: https://github.com/agronholm/apscheduler
 
 ETL 框架 : https://github.com/mara/data-integration
 
