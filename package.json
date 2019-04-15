@@ -16,7 +16,8 @@
   },
   "devDependencies": {
     "gitbook-plugin-chapter-fold": "0.0.4",
-    "gitbook-plugin-expandable-chapters": "^0.2.0"
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-folding-menu": "^1.0.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
