@@ -12,7 +12,11 @@
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-simple-page-toc": "^0.1.2",
     "gitbook-plugin-toggle-chapters": "0.0.3",
-    "prism": "^4.1.2"
+    "prism": "^4.1.2",
+    "prism-react": "^1.0.2",
+    "react": "^16.8.6",
+    "react-prism": "^4.3.2",
+    "recompose": "^0.30.0"
   },
   "devDependencies": {
     "gitbook-plugin-chapter-fold": "0.0.4",
