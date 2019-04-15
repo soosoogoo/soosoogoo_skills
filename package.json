@@ -11,6 +11,7 @@
     "gitbook-plugin-page-treeview": "^3.0.0",
     "gitbook-plugin-prism": "^2.4.0",
     "gitbook-plugin-simple-page-toc": "^0.1.2",
+    "gitbook-plugin-toggle-chapters": "0.0.3",
     "prism": "^4.1.2"
   },
   "devDependencies": {
