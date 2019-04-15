@@ -46,5 +46,16 @@ cd azkaban; ./gradlew build installDist
 
 
 
+默认IP为 http://localhost:8081/
+
+```shell
+#查看默认密码
+vim /data/azkaban/azkaban/azkaban-web-server/src/test/resources/azkaban-users.xml
+```
+
+
+
+
+
 
 
