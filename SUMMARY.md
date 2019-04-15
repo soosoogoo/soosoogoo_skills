@@ -38,6 +38,6 @@
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
 * [Java](java.md)
-* 1111
+* [1111](expanded)
   * [222](222.md)
 
