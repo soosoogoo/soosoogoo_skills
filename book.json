@@ -17,7 +17,7 @@
     "plugins" : [
                 "prism", "-highlight",
 
-        "folding-menu",
+        "collapse-expand-chapters",
 
         "insert-logo",
         "-livereload"
