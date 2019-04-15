@@ -1,3 +1,8 @@
+安装 :  https://github.com/GitbookIO/gitbook
+安装说明: https://www.imooc.com/article/22889
+
+
+
 使用说明:https://www.jianshu.com/p/427b8bb066e6
 
 推荐工具 : 
