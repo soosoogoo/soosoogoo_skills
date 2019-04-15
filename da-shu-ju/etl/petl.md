@@ -64,19 +64,19 @@ import petl as etl
 from collections import OrderedDict
 
 #
-# 'host' => 'bitz-8070cc54.cn-hongkong-b.ads.aliyuncs.com',
-# 'username' => 'LTAIgbCuHK05Njkz',
-# 'password' => 'YP5ZNdYQQbiBH2XTp8aLxXpthbuY1N',
+# 'host' => 'xxx',
+# 'username' => 'xxx',
+# 'password' => 'xxx',
 # 'db' => 'bitz',
-# 'port' => 10004,
+# 'port' => xxx,
 # 'charset' => 'utf8',
 
 conn = pymysql.connect(
-    host='bitz-8070cc54.cn-hongkong-b.ads.aliyuncs.com',
-    port=10004,
-    user='LTAIgbCuHK05Njkz',
-    passwd='YP5ZNdYQQbiBH2XTp8aLxXpthbuY1N',
-    db='bitz',
+    host='xxx',
+    port=xxx,
+    user='xxx',
+    passwd='xxx',
+    db='xxx',
     charset='utf8',
 )
 
