@@ -1,6 +1,6 @@
 # Summary
 
-* [soosoogoo技能树](README.md)
+* [技能树](README.md)
 * [读书笔记](du-shu-bi-ji.md)
   * [高性能Mysql](du-shu-bi-ji/gao-xing-neng-mysql.md)
   * [cloudera hadoop大数据平台实战指南](du-shu-bi-ji/cloudera-hadoopda-shu-ju-ping-tai-shi-zhan-zhi-nan.md)
