@@ -1,5 +1,5 @@
 安装 :  https://github.com/GitbookIO/gitbook
-安装说明: https://www.imooc.com/article/22889
+安装说明 : https://www.imooc.com/article/22889
 
 
 
