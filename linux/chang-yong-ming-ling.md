@@ -1,0 +1,3 @@
+yum install mlocate
+
+updatedb

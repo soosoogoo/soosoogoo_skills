@@ -9,8 +9,6 @@
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
   * [Cancal](chapter1/cancal.md)
-  * [Linux](chapter1/linux.md)
-    * [常用命令](chapter1/chang-yong-ming-ling.md)
 * [Mysql](mysql.md)
   * [Profiling速查](mysql/profilingsu-cha.md)
   * [Explain速查](mysql/explainsu-cha.md)
@@ -37,5 +35,7 @@
     * [petl](da-shu-ju/etl/petl.md)
   * [调度框架](da-shu-ju/diao-du-kuang-jia.md)
     * [azkaban](da-shu-ju/azkaban.md)
+* [Linux](linux.md)
+  * [常用命令](linux/chang-yong-ming-ling.md)
 * [Java](java.md)
 
