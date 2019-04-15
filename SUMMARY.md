@@ -9,7 +9,7 @@
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
   * [Cancal](chapter1/cancal.md)
-  * Linux
+  * [Linux](chapter1/linux.md)
     * [常用命令](chapter1/chang-yong-ming-ling.md)
 * [Mysql](mysql.md)
   * [Profiling速查](mysql/profilingsu-cha.md)
