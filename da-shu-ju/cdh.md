@@ -13,3 +13,5 @@ CDH是Cloudera公司的发行版，包含Hadoop，Spark，Hive，Hbase和一些�
 
 
 建议新手入门, 使用 CDH搭建 
+
+
