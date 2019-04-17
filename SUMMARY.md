@@ -44,4 +44,6 @@
 * [Java](java.md)
   * [安装](java/an-zhuang.md)
 * Python
+  * [常用包](chang-yong-bao.md)
+    * [gmpy2](chang-yong-bao/gmpy2.md)
 
