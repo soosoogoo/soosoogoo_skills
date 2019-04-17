@@ -29,7 +29,9 @@ vim /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/bin/configure
 
 
 
+#### 解决方式
 
+检查  数据库连接,  此处是连接配置有误
 
 
 
