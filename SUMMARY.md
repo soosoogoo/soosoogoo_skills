@@ -37,7 +37,8 @@
     * [petl](da-shu-ju/etl/petl.md)
   * [调度框架](da-shu-ju/diao-du-kuang-jia.md)
     * [azkaban](da-shu-ju/azkaban.md)
-  * Sqoop
+  * [Sqoop](da-shu-ju/sqoop.md)
+    * [安装](da-shu-ju/sqoop/an-zhuang.md)
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
 * [Java](java.md)
