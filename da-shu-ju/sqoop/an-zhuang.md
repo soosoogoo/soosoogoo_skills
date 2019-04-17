@@ -33,7 +33,7 @@ source /etc/profile
 ##### 使用sqoop链接数据库
 
 ```shell
-sqoop import --connect jdbc:mysql://m-j6ct3738rs916u5k3.mysql.rds.aliyuncs.com:3306/bitz --username dev_user --password IC90MxENmPl6cKFi 
+sqoop list-databases  --connect jdbc:mysql://rm-j6ct3738rs916u5k3.mysql.rds.aliyuncs.com:3306/bitz --username dev_user --password IC90MxENmPl6cKFi 
 ```
 
 
