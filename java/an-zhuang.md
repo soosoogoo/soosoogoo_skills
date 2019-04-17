@@ -17,6 +17,8 @@ $ rpm -ivh jdk-12.interim.update.patch_linux-x64_bin.rpm
 
 
 
+https://docs.oracle.com/cd/E19509-01/820-5483/inst_jdk_javahome_t/
+
 #### 修改PATH
 
 ```shell
@@ -24,6 +26,9 @@ vim /etc/profile
 
 #添加
 PATH="/usr/java/jdk1.8.0_201-amd64/bin:$PATH"
+
+
+
 
 ```
 
