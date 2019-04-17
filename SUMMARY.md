@@ -46,6 +46,6 @@
 * [Python2](python2.md)
   * [ORM](python2/orm.md)
   * [常用包](da-shu-ju/sqoop.md)
-    * [gmpy2](python2/chang-yong-bao/gmpoy2.md)
+    * [gmpy2](python2/chang-yong-bao/gmpy2.md)
 
 
