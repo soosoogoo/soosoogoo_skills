@@ -1,5 +1,7 @@
 官方手册:<https://sqoop.apache.org/docs/1.4.6/SqoopUserGuide.html>
 
+### 安装Sqoop
+
 ##### 安装 java jdk (见java)
 
 ##### 找到sqoop 目录
@@ -44,7 +46,7 @@ sqoop list-databases  --connect jdbc:mysql://rm-j6ct3738rs916u5k3.mysql.rds.aliy
 
 
 
-#### 可以把命令 集合 放到文件
+### 抽象命令
 
 创建一个文件
 
