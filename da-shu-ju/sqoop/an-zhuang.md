@@ -7,7 +7,7 @@
 
 
 
-可以通过 找到 sqoop 目录
+找到sqoop 目录找到 sqoop 目录
 
 
 
