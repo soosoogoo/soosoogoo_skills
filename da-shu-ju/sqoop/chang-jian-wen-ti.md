@@ -24,5 +24,12 @@ vim /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/bin/configure
 
 
 
+>  ERROR manager.CatalogQueryManager: Failed to list tables
+> com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+
+
+
+
 
 

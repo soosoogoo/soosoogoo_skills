@@ -1,3 +1,5 @@
+官方手册:<https://sqoop.apache.org/docs/1.4.6/SqoopUserGuide.html>
+
 ##### 安装 java jdk (见java)
 
 ##### 找到sqoop 目录
@@ -31,7 +33,7 @@ source /etc/profile
 ##### 使用sqoop链接数据库
 
 ```shell
-sqoop list-tables--connect jdbc: mysql://bitz-8070cc54.cn-hongkong-b.ads.aliyuncs.com:10004/ sqoopdemo--username LTAIgbCuHK05Njkz--password YP5ZNdYQQbiBH2XTp8aLxXpthbuY1N
+sqoop import --connect jdbc:mysql://m-j6ct3738rs916u5k3.mysql.rds.aliyuncs.com:3306/bitz --username dev_user --password IC90MxENmPl6cKFi 
 ```
 
 
@@ -40,6 +42,6 @@ sqoop list-tables--connect jdbc: mysql://bitz-8070cc54.cn-hongkong-b.ads.aliyunc
 
  
 
- 
+   
 
  
