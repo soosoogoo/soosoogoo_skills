@@ -1,4 +1,4 @@
-安装 java jdk
+安装 java jdk (见java)
 
 
 
