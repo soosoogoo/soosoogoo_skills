@@ -5,7 +5,9 @@
 
 阿里系  ads dts问题
 
-ads 当前默认不支持 DECIMAL
+ads 当前默认不支持 DECIMAL  
+
+dts 会将超过精度的  DECIMAL  当成null
 
 
 ### CDH 体系
