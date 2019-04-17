@@ -24,7 +24,7 @@ xcode-select –install
 
 
 
-解决方式
+### 解决方式
 
 ```shell
 brew install libmpc mpfr gmp
