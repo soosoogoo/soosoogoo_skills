@@ -43,8 +43,5 @@
   * [常用命令](linux/chang-yong-ming-ling.md)
 * [Java](java.md)
   * [安装](java/an-zhuang.md)
-* [Python](python.md)
-  * [ORM](orm.md)
-  * [常用包](chang-yong-bao.md)
-    * [gmpy2](chang-yong-bao/gmpy2.md)
+* Python
 
