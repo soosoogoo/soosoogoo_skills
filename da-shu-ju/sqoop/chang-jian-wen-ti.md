@@ -1,3 +1,7 @@
+## 问题1
+
+> 
+>
 > Warning: /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/bin/../../accumulo does not exist! Accumulo imports will fail.
 > Please set $ACCUMULO_HOME to the root of your Accumulo installation.
 
@@ -20,9 +24,9 @@ vim /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/bin/configure
 
 
 
+## 问题2
 
-
-
+### 
 
 >  ERROR manager.CatalogQueryManager: Failed to list tables
 > com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
