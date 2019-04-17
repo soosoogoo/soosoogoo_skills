@@ -1,15 +1,10 @@
 安装 java jdk
 
-安装 jbdc 
-
-
-复制 jbdc 到  sqoop 目录
 
 
 
-找到sqoop 目录找到 sqoop 目录
 
-
+找到sqoop 目录
 
 ```shell
 locate /bin/sqoop  
