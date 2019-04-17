@@ -46,4 +46,5 @@
 * [Python](python.md)
   * [常用包](chang-yong-bao.md)
     * [gmpy2](chang-yong-bao/gmpy2.md)
+* [Python2](python2.md)
 
