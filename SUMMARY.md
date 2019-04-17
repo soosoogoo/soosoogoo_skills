@@ -31,9 +31,6 @@
   * [Canal](mysql/canal.md)
     * [常见问题](mysql/canal/chang-jian-wen-ti.md)
     * [安装过程](mysql/canal/an-zhuang-guo-cheng.md)
-  * [安装过程](da-shu-ju/an-zhuang-guo-cheng.md)
-    * [Cloudera Manager](da-shu-ju/an-zhuang-guo-cheng/cloudera-manager.md)
-    * [Canal](da-shu-ju/an-zhuang-guo-cheng/canal.md)
   * [ETL](da-shu-ju/etl.md)
     * [petl](da-shu-ju/etl/petl.md)
   * [调度框架](da-shu-ju/diao-du-kuang-jia.md)
@@ -41,6 +38,7 @@
   * [Sqoop](da-shu-ju/sqoop.md)
     * [安装](da-shu-ju/sqoop/an-zhuang.md)
     * [常见问题](da-shu-ju/sqoop/chang-jian-wen-ti.md)
+  * MapReduce
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
 * [Java](java.md)
