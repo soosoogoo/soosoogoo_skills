@@ -1,5 +1,5 @@
 官方手册
-https://dev.mysql.com
+https://dev.mysql.com/doc/refman/5.7/en/preface.html
 
 机翻Mysql文档
 http://www.searchdoc.cn/rdbms/mysql/dev.mysql.com/doc/refman/5.7/en/explain-output.com.coder114.cn.html
