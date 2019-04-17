@@ -12,3 +12,10 @@
 locate /bin/sqoop  
 
  /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/
+ 
+ 
+ 
+ 
+ 
+ 
+ 
