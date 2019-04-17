@@ -45,7 +45,7 @@
   * [安装](java/an-zhuang.md)
 * [Python2](python2.md)
   * [ORM](python2/orm.md)
-  * [常用包](da-shu-ju/sqoop.md)
+  * [常用包]()
     * [gmpy2](python2/chang-yong-bao/gmpy2.md)
 
 
