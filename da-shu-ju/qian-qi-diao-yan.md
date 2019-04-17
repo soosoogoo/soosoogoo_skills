@@ -3,7 +3,9 @@
 ![WechatIMG40](https://ws2.sinaimg.cn/large/006tNc79ly1g202gfhliuj31l10u0qgx.jpg)
 
 
+阿里系  ads dts问题
 
+ads 当前默认不支持 DECIMAL
 
 
 ### CDH 体系
