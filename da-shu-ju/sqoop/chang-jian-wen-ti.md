@@ -9,6 +9,8 @@ vim /opt/cloudera/parcels/CDH-6.1.1-1.cdh6.1.1.p0.875250/lib/sqoop/bin/configure
 
 
 
+#### 解决方式
+
 ```shell
 148 #if [ ! -d "${ACCUMULO_HOME}" ]; then
 149 #  echo "Warning: $ACCUMULO_HOME does not exist! Accumulo imports will fail."
