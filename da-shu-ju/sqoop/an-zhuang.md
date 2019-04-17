@@ -40,13 +40,11 @@ sqoop list-databases  --connect jdbc:mysql://rm-j6ct3738rs916u5k3.mysql.rds.aliy
 
 
 
-
-
-
-
-
-
 ### 抽象命令
+
+> 可以将 例如数据库配置,以及公用命令都抽象到一个文件,方便管理
+
+
 
 ##### 创建一个文件
 
@@ -80,8 +78,6 @@ sqoop  list-databases --options-file /usr/sqoop/conn.s
 ```
 
 
-
-> 此方式可以把公用配置,数据库参数 都抽象出来
 
 
 
