@@ -5,7 +5,7 @@
 
 ### 公共参数
 
-<div id='公共参数'></div>
+<div id='publicParams'></div>
 
 ```shell
 sqoop help
