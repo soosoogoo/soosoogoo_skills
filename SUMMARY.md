@@ -30,7 +30,7 @@
       * [import](da-shu-ju/sqoop/shou-ce.md#import-comm)
       * [import-control](da-shu-ju/sqoop/shou-ce.md#import-control)
 * [数据库](shu-ju-ku.md)
-  * [基本知识](111/222.md)
+  * [基本知识](shujuku/lie-shi-shu-ju-ku.md)
   * [列式数据库](lie-shi-shu-ju-ku.md)
   * [Mysql](mysql.md)
     * [Profiling速查](mysql/profilingsu-cha.md)
