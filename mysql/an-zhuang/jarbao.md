@@ -2,3 +2,6 @@
 https://dev.mysql.com/downloads/connector/j/
 
 
+选择  : Platform Independent
+
+
