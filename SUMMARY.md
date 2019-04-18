@@ -38,6 +38,7 @@
   * [Sqoop](da-shu-ju/sqoop.md)
     * [安装](da-shu-ju/sqoop/an-zhuang.md)
     * [常见问题](da-shu-ju/sqoop/chang-jian-wen-ti.md)
+    * 手册
   * MapReduce
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
@@ -47,5 +48,4 @@
   * [ORM](python2/orm.md)
   * [常用包](python2/chang-yong-bao.md)
     * [gmpy2](python2/chang-yong-bao/gmpy2.md)
-
 
