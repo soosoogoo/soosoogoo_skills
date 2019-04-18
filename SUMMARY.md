@@ -31,6 +31,9 @@
       * [import-control](da-shu-ju/sqoop/shou-ce.md#import-control)
 * [数据库\(总\)](shu-ju-5e9328-603b29.md)
   * [基本知识](ji-ben-zhi-shi.md)
+* [数据库](111.md)
+  * [基本知识](111/222.md)
+  * [列式数据库](lie-shi-shu-ju-ku.md)
   * [Mysql](mysql.md)
     * [Profiling速查](mysql/profilingsu-cha.md)
     * [常用工具](mysql/chang-yong-gong-ju.md)
@@ -45,9 +48,6 @@
       * [InnoDB解决脏,不可重复,幻研究](mysql/yi-zhi-60272c-you-xiao-xing/innodbjie-jue-810f2c-bu-ke-zhong-590d2c-huan-yan-jiu.md)
     * [安装](mysql/an-zhuang.md)
       * [jar包](mysql/an-zhuang/jarbao.md)
-* [数据库](111.md)
-  * [基本知识](111/222.md)
-* [列式数据库](lie-shi-shu-ju-ku.md)
 
 ---
 
