@@ -43,15 +43,16 @@
       * [import](da-shu-ju/sqoop/shou-ce.md#import-comm)
       * [import-control](da-shu-ju/sqoop/shou-ce.md#import-control)
 
+---
 
-
-  * MapReduce
-* [Linux](linux.md)
-  * [常用命令](linux/chang-yong-ming-ling.md)
-* [Java](java.md)
-  * [安装](java/an-zhuang.md)
+* MapReduce
+  * [Linux](linux.md)
 * [Python2](python2.md)
   * [ORM](python2/orm.md)
-  * [常用包](python2/chang-yong-bao.md)
-    * [gmpy2](python2/chang-yong-bao/gmpy2.md)
+* [Java](java.md)
+* [常用命令](linux/chang-yong-ming-ling.md)
+* [安装](java/an-zhuang.md)
+* [ORM](python2/orm.md)
+* [常用包](python2/chang-yong-bao.md)
+  * [gmpy2](python2/chang-yong-bao/gmpy2.md)
 
