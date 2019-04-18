@@ -29,8 +29,6 @@
       * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
       * [import](da-shu-ju/sqoop/shou-ce.md#import-comm)
       * [import-control](da-shu-ju/sqoop/shou-ce.md#import-control)
-* [数据库\(总\)](shu-ju-5e9328-603b29.md)
-  * [基本知识](ji-ben-zhi-shi.md)
 * [数据库](111.md)
   * [基本知识](111/222.md)
   * [列式数据库](lie-shi-shu-ju-ku.md)
