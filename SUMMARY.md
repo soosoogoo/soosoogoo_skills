@@ -40,6 +40,11 @@
     * [常见问题](da-shu-ju/sqoop/chang-jian-wen-ti.md)
     * [手册](da-shu-ju/sqoop/shou-ce.md)
       * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
+      * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
+      * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
+
+
+
   * MapReduce
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
