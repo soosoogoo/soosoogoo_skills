@@ -33,6 +33,7 @@
   * [列式数据库](lie-shi-shu-ju-ku.md)
   * [Mysql](mysql.md)
     * [Profiling速查](mysql/profilingsu-cha.md)
+    * [常用工具](mysql/chang-yong-gong-ju.md)
     * [Explain速查](mysql/explainsu-cha.md)
     * [基础原理](mysql/ji-chu-yuan-li.md)
       * [update原理](mysql/ji-chu-yuan-li/updateyuan-li.md)
