@@ -41,7 +41,7 @@
     * [手册](da-shu-ju/sqoop/shou-ce.md)
       * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
       * [import](da-shu-ju/sqoop/shou-ce.md#import)
-        * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
+        * [import-control](da-shu-ju/sqoop/shou-ce.md#publicParams)
 
 
 
