@@ -47,7 +47,6 @@
 
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
-* [常用命令](linux/chang-yong-ming-ling.md)
 * MapReduce
 * [Python2](python2.md)
   * [ORM](python2/orm.md)
