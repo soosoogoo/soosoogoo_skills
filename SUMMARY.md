@@ -38,7 +38,7 @@
   * [Sqoop](da-shu-ju/sqoop.md)
     * [安装](da-shu-ju/sqoop/an-zhuang.md)
     * [常见问题](da-shu-ju/sqoop/chang-jian-wen-ti.md)
-    * 手册
+    * [手册](da-shu-ju/sqoop/shou-ce.md)
   * MapReduce
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
