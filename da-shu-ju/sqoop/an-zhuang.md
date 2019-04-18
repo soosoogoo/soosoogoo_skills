@@ -35,7 +35,7 @@ source /etc/profile
 #### 使用sqoop链接数据库
 
 ```shell
-sqoop list-databases  --connect jdbc:mysql://rm-j6ct3738rs916u5k3.mysql.rds.aliyuncs.com:3306/bitz --username dev_user --password IC90MxENmPl6cKFi 
+sqoop list-databases  --connect jdbc:mysql://xxx:3306/xxx --username xxx --password xxx 
 ```
 
 
@@ -58,15 +58,15 @@ vim /usr/sqoop/test-db.s
 
 # 链接方式
 --connect
-jdbc:mysql://rm-j6ct3738rs916u5k3.mysql.rds.aliyuncs.com:3306/bitz
+jdbc:mysql://xxxx:3306/xxx
 
 # 用户名
 --username
-dev_user
+xxx
 
 # 密码
 --password
-IC90MxENmPl6cKFi
+xxx
 ```
 
 
