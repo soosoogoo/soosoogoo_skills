@@ -71,7 +71,7 @@ See 'sqoop help COMMAND' for information on a specific command.
 | -- hive-table                                                | hive当中的表名                                               |
 | --hive-partition-key                                         | hive分区的列名 。                                            |
 | --hive-partition-value                                       | hive分区的值。                                               |
-| --columns < col………….>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 从表中导出指定的一组列的数据，用逗号分隔， oracle中列名需要大写。 |
+| --columns <col ………….>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | 从表中导出指定的一组列的数据，用逗号分隔， oracle中列名需要大写。 |
 | --warehouse-dir                                              | （必选）可以指定为-warehouse-dir/user/hive/warehouse/ <br />即导入数据的存放路径，如果该路径不存在，会首先创建。<br /> 在该路径下会生成和TABLE（--table）同名的文件夹，<br />该文件夹下存放数据文件。 <br />如果路径存在，需要保证该文件夹下不存在与TABLE(--table)同名文件。<br /> 如果不手动指定，默认是启动sqoop任务的用户的home目录。 |
 | --direct                                                     | 使用快速模式导入                                             |
 | --compress                                                   | 启用压缩，生成的文件为经过压缩的文件。 默认使用GZIP算法。<br /> 通过--compression-codec设置压缩算法。 通常当空间不够时可以使用压缩，<br />不过需要注意，如果压缩率过大可能导致CPU占用过高。 <br />如果可以，推荐使用snappy。 <br />另外，如果配置了mapreduce的“map输出压缩”， <br />那么即使不适用—compress开关， 导入的数据文件也会使用对应的codec进行压缩。 |
