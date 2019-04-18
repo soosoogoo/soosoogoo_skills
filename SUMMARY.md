@@ -40,7 +40,7 @@
     * [常见问题](da-shu-ju/sqoop/chang-jian-wen-ti.md)
     * [手册](da-shu-ju/sqoop/shou-ce.md)
       * [公共参数](da-shu-ju/sqoop/shou-ce.md#publicParams)
-      * [import](da-shu-ju/sqoop/shou-ce.md#import)
+      * [import](da-shu-ju/sqoop/shou-ce.md#import-comm)
         * [import-control](da-shu-ju/sqoop/shou-ce.md#import-control)
 
 
