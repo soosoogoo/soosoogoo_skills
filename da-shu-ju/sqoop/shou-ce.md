@@ -33,7 +33,7 @@ See 'sqoop help COMMAND' for information on a specific command.
 
 ###  import-comm
 
-<div id="import"></div>
+<div id="import-comm"></div>
 
 ```shell
 Argument	Description
