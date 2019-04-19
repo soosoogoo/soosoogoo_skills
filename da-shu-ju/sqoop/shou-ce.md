@@ -4,6 +4,8 @@
 
 2.<https://www.jianshu.com/p/695c3bae42b3>
 
+<https://www.cnblogs.com/xiaodf/p/6030102.html#421>
+
 ### 公共参数
 
 <div id='publicParams'></div>
@@ -36,7 +38,7 @@ See 'sqoop help COMMAND' for information on a specific command.
 
 <div id="import-comm"></div>
 
-
+<https://sqoop.apache.org/docs/1.4.7/SqoopUserGuide.html#_example_invocations_9>
 
 | 选项                                 | 说明                                   |
 | ------------------------------------ | :------------------------------------- |
