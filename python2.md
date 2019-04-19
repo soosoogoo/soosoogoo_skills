@@ -1,1 +1,1 @@
- python -m pip 
+ 多版本共存的时候 : python -m pip 
