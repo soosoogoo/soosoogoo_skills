@@ -35,3 +35,20 @@ ln -s /opt/rh/devtoolset-2/root/usr/bin/gcc /usr/bin/gcc
 ln -s /opt/rh/devtoolset-2/root/usr/bin/c++ /usr/bin/c++
 ln -s /opt/rh/devtoolset-2/root/usr/bin/g++ /usr/bin/g++
 gcc --version
+
+
+
+
+
+
+# yum install centos-release-SCL
+# yum install scl-utils-build
+# yum --disablerepo="*" --enablerepo="centos-sclo-rh" list
+# yum install python27 -y
+
+作者：cexpert
+链接：https://www.jianshu.com/p/b8792a7b5350
+来源：简书
+简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+
+
