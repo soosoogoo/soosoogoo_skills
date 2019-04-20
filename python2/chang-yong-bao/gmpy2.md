@@ -18,29 +18,23 @@ mkdir ~/install && cd ~/install
 wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.lz
 yum install lzip -y
 lzip -d gmp-6.1.2.tar.lz
-tar xvf gmp-6.1.2.tar
-cd gmp-6.1.2
+tar xvf gmp-6.1.2.tar && cd gmp-6.1.2
 ./configure
-make
-make install
+make && make install
 
 #编译mpfr:
 cd ~/install
 wget ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.zip
-unzip mpfr-3.1.6.zip
-cd mpfr-3.1.6
+unzip mpfr-3.1.6.zip && cd mpfr-3.1.6
 ./configure
-make
-make install
+make && make install
 
 #编译mpc:
 cd ~/install
 wget http://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
-tar zxvf mpc-1.1.0.tar.gz
-cd mpc-1.1.0
+tar zxvf mpc-1.1.0.tar.gz && cd mpc-1.1.0
 ./configure
-make
-make install
+make && make install
 
 #加载lib位置:
 sed -i '$a\/usr/local/lib' /etc/ld.so.conf
