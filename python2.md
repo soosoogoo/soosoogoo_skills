@@ -59,4 +59,10 @@ scl enable devtoolset-7 bash 如果使用的是zsh则使用
 scl enable devtoolset-7 zsh
 如果不知道什么是zsh那么默认的就好了
 
+https://www.jianshu.com/p/36f5d3524240
+https://www.jianshu.com/p/b8792a7b5350
+https://blog.51cto.com/wenguonideshou/2083301
+
+https://www.python.org/ftp/python/3.7.3/
+
 
