@@ -15,7 +15,7 @@
 mkdir ~/install && cd ~/install
 
 #编译gmp:
-wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.lz
+cd ~/install && wget https://gmplib.org/download/gmp/gmp-6.1.2.tar.lz
 yum install lzip -y
 lzip -d gmp-6.1.2.tar.lz
 tar xvf gmp-6.1.2.tar && cd gmp-6.1.2
@@ -25,18 +25,19 @@ make && make install
 # 输出 make[4]: Leaving directory '/root/install/gmp-6.1.2' 表示安装成功
 
 #编译mpfr:
-cd ~/install
-wget ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.zip
+cd ~/install && wget ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.zip
 unzip mpfr-3.1.6.zip && cd mpfr-3.1.6
 ./configure
 make && make install
 
+# 输出 make[1]: Leaving directory '/root/install/mpfr-3.1.6' 表示安装成功
+
 #编译mpc:
-cd ~/install
-wget http://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
+cd ~/install && wget http://ftp.gnu.org/gnu/mpc/mpc-1.1.0.tar.gz
 tar zxvf mpc-1.1.0.tar.gz && cd mpc-1.1.0
 ./configure
 make && make install
+#输出 make[1]: Leaving directory '/root/install/mpc-1.1.0' 表示安装成功
 
 #加载lib位置:
 sed -i '$a\/usr/local/lib' /etc/ld.so.conf
@@ -44,8 +45,7 @@ sed -i '$a\/usr/local/lib' /etc/ld.so.conf
 ldconfig
 
 #安装gmpy2:
-cd ~/install
-wget https://files.pythonhosted.org/packages/90/f4/9a2e384b325b69bc5827b9a6510a8fb4a51698c915c06a3f25a86458892a/gmpy2-2.0.8.zip
+cd ~/install && wget https://files.pythonhosted.org/packages/90/f4/9a2e384b325b69bc5827b9a6510a8fb4a51698c915c06a3f25a86458892a/gmpy2-2.0.8.zip
 unzip gmpy2-2.0.8.zip
 cd gmpy2-2.0.8
 python3.7 setup.py build
