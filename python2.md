@@ -2,40 +2,18 @@
  
  
  
- https://pypi.org/project/setuptools/#files
+https://pypi.org/project/setuptools/#files
  
  
  
- centos
- sudo yum install python-devel
-sudo yum install libevent-devel
-easy_install gevent
-
-yum install gmp-devel
-yum install mpfr-devel
-yum install libmpc-devel
-
-yum install mpfr-devel
-yum install gmpy
 
 yum install gcc libffi-devel python-devel openssl-devel
 
 
- python2.7 -m pip  install  gevent
+python2.7 -m pip  install  gevent
 
 
-wget http://people.centos.org/tru/devtools-2/devtools-2.repo
-mv devtools-2.repo /etc/yum.repos.d
-yum install devtoolset-2-gcc devtoolset-2-binutils devtoolset-2-gcc-c++
 
-
-2、三个安装包(gcc/g++/c++)会被安装到，/opt/rh/devtoolset-2/root/目录中。然后我们创建一个软连接就可以使用了。
-
-
-ln -s /opt/rh/devtoolset-2/root/usr/bin/gcc /usr/bin/gcc
-ln -s /opt/rh/devtoolset-2/root/usr/bin/c++ /usr/bin/c++
-ln -s /opt/rh/devtoolset-2/root/usr/bin/g++ /usr/bin/g++
-gcc --version
 
 
 
@@ -49,15 +27,19 @@ gcc --version
 
 https://www.jianshu.com/p/36f5d3524240
 
- yum install centos-release-scl -y
+yum install centos-release-scl -y
 yum install devtoolset-7 -y
 scl enable devtoolset-7 bash
 gcc --version
+
+
 注释：
 在centos的devtoolset库中 最新的为 devtoolset-7，所以我们以后可以自己改数字安装最新的版本
 scl enable devtoolset-7 bash 如果使用的是zsh则使用
 scl enable devtoolset-7 zsh
 如果不知道什么是zsh那么默认的就好了
+
+
 
 https://www.jianshu.com/p/36f5d3524240
 https://www.jianshu.com/p/b8792a7b5350
