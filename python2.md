@@ -21,6 +21,7 @@ yum install gmpy
 yum install gcc libffi-devel python-devel openssl-devel
 
 
+ python2.7 -m pip  install  gevent
 
 
 wget http://people.centos.org/tru/devtools-2/devtools-2.repo
@@ -46,9 +47,16 @@ gcc --version
 # yum --disablerepo="*" --enablerepo="centos-sclo-rh" list
 # yum install python27 -y
 
-作者：cexpert
-链接：https://www.jianshu.com/p/b8792a7b5350
-来源：简书
-简书著作权归作者所有，任何形式的转载都请联系作者获得授权并注明出处。
+https://www.jianshu.com/p/36f5d3524240
+
+ yum install centos-release-scl -y
+yum install devtoolset-7 -y
+scl enable devtoolset-7 bash
+gcc --version
+注释：
+在centos的devtoolset库中 最新的为 devtoolset-7，所以我们以后可以自己改数字安装最新的版本
+scl enable devtoolset-7 bash 如果使用的是zsh则使用
+scl enable devtoolset-7 zsh
+如果不知道什么是zsh那么默认的就好了
 
 
