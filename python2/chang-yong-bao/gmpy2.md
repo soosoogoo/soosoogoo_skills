@@ -1,10 +1,11 @@
 ### Linux
 
-```shell
-安装要求:
-gmpy2仅使用最新版本的GMP，MPFR和MPC进行了测试。具体来说，对于整数和合理支持，gmpy2需要GMP 5.0.x或更高版本。要支持多精度浮点运算，需要MPFR 3.1.x或更高版本。复杂算术需要MPC 1.0.1或更高版本。
-https://gmpy2.readthedocs.io/en/latest/intro.html#requirements
+> 安装要求:
+> gmpy2仅使用最新版本的GMP，MPFR和MPC进行了测试。具体来说，对于整数和合理支持，gmpy2需要GMP 5.0.x或更高版本。要支持多精度浮点运算，需要MPFR 3.1.x或更高版本。复杂算术需要MPC 1.0.1或更高版本。
+> https://gmpy2.readthedocs.io/en/latest/intro.html#requirements
 
+```shell
+#各自的官方下载地址
 #mpfr https://www.mpfr.org/mpfr-current/#download
 #m4 http://ftp.gnu.org/gnu/m4/
 #gmp https://gmplib.org/download/gmp/
@@ -41,7 +42,7 @@ cd mpc-1.1.0
 make
 make install
 
-加载lib位置:
+#加载lib位置:
 sed -i '$a\/usr/local/lib' /etc/ld.so.conf
 
 ldconfig
