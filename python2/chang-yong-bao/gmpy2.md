@@ -22,6 +22,8 @@ tar xvf gmp-6.1.2.tar && cd gmp-6.1.2
 ./configure
 make && make install
 
+# 输出 make[4]: Leaving directory '/root/install/gmp-6.1.2' 表示安装成功
+
 #编译mpfr:
 cd ~/install
 wget ftp://ftp.gnu.org/gnu/mpfr/mpfr-3.1.6.zip
