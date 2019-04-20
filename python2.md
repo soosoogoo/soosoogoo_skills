@@ -66,3 +66,46 @@ https://blog.51cto.com/wenguonideshou/2083301
 https://www.python.org/ftp/python/3.7.3/
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+http://ftp.gnu.org/gnu/m4/
+https://gmplib.org/download/gmp/
+https://www.mpfr.org/mpfr-current/
+
+
+
+v=1.4.18
+cd $HOME/src
+wget http://ftp.gnu.org/gnu/m4/m4-${v}.tar.gz
+tar xf m4-${v}.tar.gz && cd m4-${v}
+./configure -prefix=/usr/local
+make && make check && make install
+
+v=4.0.1
+cd $HOME/src
+wget http://www.mpfr.org/mpfr-current/mpfr-${v}.tar.bz2
+tar -jxvf mpfr-${v}.tar.bz2 && cd mpfr-${v}
+./configure --prefix=$HOME/static --enable-static --disable-shared --with-pic --with-gmp=$HOME/static
+make && make check && make install
+
+
+
+
+v=4.0.1
+cd $HOME/src
+wget http://www.mpfr.org/mpfr-current/mpfr-${v}.tar.bz2
+tar -jxvf mpfr-${v}.tar.bz2 && cd mpfr-${v}
+./configure --prefix=$HOME/static --enable-static --disable-shared --with-pic --with-gmp=$HOME/static
+make && make check && make install
