@@ -12,3 +12,9 @@ https://dev.mysql.com/downloads/repo/yum/
 
 https://dev.mysql.com/doc/mysql-yum-repo-quick-guide/en/
 
+
+
+select * from information_schema.innodb_lock_waits;
+
+select * from information_schema.innodb_locks;
+
