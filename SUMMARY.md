@@ -58,5 +58,8 @@
     * [gmpy2](python2/chang-yong-bao/gmpy2.md)
 * [Java](java.md)
   * [安装](java/an-zhuang.md)
-* 区块链
+* [区块链](qu-kuai-lian.md)
+  * [钱包搭建](qu-kuai-lian/qian-bao-da-jian.md)
+    * ETH
+    * [BTC](qu-kuai-lian/btc.md)
 
