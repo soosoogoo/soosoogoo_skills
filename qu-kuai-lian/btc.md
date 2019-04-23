@@ -3,3 +3,7 @@ omnicore,trx,eth
 
 usdt搭建参考资料
 https://www.jianshu.com/p/4a8054146ef1
+
+
+
+api官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
