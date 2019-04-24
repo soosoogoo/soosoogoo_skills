@@ -14,8 +14,8 @@
 
 
 
-
 ### 安装omni
+
 ```shell
 # BITCOIN_ROOT=$(pwd)
 mkdir /data/usdt
@@ -26,6 +26,7 @@ git clone https://github.com/OmniLayer/omnicore.git
 #mkdir -p $BDB_PREFIX
 mkdir -p /data/usdt/db4
 
+cd /data/usdt/db4
 # Fetch the source and verify that it is not tampered with
 wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
 echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef db-4.8.30.NC.tar.gz' | sha256sum -c
@@ -44,5 +45,22 @@ cd /data/usdt/omnicore/
 ./autogen.sh
 ./configure LDFLAGS="-L${/data/usdt/db4}/lib/" CPPFLAGS="-I${/data/usdt/db4}/include/" 
 # (other args...)
+```
+
+
+
+
+
+
+
+```shell
+mkdir /data/autoconf && cd /data/autoconf
+
+wget ftp://ftp.gnu.org/gnu/autoconf/autoconf-2.68.tar.gz
+
+tar zxvf autoconf-2.68.tar.gz
+cd autoconf-2.68
+./configure --prefix=/usr/
+make && make install
 ```
 
