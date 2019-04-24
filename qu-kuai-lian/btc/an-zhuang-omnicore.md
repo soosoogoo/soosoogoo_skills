@@ -68,3 +68,13 @@ cd autoconf-2.68
 make && make install
 ```
 
+
+
+
+```
+apt-get update
+apt-get upgrade
+
+```
+
+
