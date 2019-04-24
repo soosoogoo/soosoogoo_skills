@@ -62,8 +62,8 @@
   * [钱包搭建](qu-kuai-lian/qian-bao-da-jian.md)
     * [ETH](qu-kuai-lian/eth.md)
       * [安装](qu-kuai-lian/eth/an-zhuang.md)
+      * [常用命令](qu-kuai-lian/eth/chang-yong-ming-ling.md)
       * [geth](qu-kuai-lian/eth/geth.md)
-    * [常用命令](qu-kuai-lian/eth/chang-yong-ming-ling.md)
     * [BTC](qu-kuai-lian/btc.md)
       * [安装omniCore](qu-kuai-lian/btc/an-zhuang-omnicore.md)
 
