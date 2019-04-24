@@ -66,4 +66,5 @@
       * [geth](qu-kuai-lian/eth/geth.md)
     * [BTC](qu-kuai-lian/btc.md)
       * [安装omniCore](qu-kuai-lian/btc/an-zhuang-omnicore.md)
+      * [快速安装](qu-kuai-lian/btc/kuai-su-an-zhuang.md)
 
