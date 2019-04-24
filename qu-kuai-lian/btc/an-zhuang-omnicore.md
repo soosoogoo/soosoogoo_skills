@@ -63,7 +63,7 @@ make install
 #cd $BITCOIN_ROOT
 cd /data/usdt/omnicore/
 ./autogen.sh
-./configure LDFLAGS="-L${/data/usdt/db4}/lib/" CPPFLAGS="-I${/data/usdt/db4}/include/" 
+./configure LDFLAGS="-L/data/usdt/db4/lib/" CPPFLAGS="-I/data/usdt/db4/include/" 
 # (other args...)
 ```
 
