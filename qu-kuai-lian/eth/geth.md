@@ -15,8 +15,8 @@ geth [选项] 命令 [命令选项] [参数…]
 版本：
 1.7.3-stable
 
+### 命令:
 
-命令:
 ```
 account    管理账户
 attach     启动交互式JavaScript环境（连接到节点）
@@ -43,7 +43,7 @@ help,h     显示一个命令或帮助一个命令列表
 geth attach 
 ```
 
-API和控制台选项:
+### API和控制台选项:
 ```
 --rpc                       启用HTTP-RPC服务器
 --rpcaddr value             HTTP-RPC服务器接口地址(默认值:“localhost”)
@@ -62,7 +62,8 @@ API和控制台选项:
 --preload value             预加载到控制台的JavaScript文件列表(逗号分隔)
 ```
 
-ETHEREUM选项:
+### ETHEREUM选项:
+
 ```
 --config value          TOML 配置文件
 --datadir “xxx”         数据库和keystore密钥的数据目录
@@ -85,7 +86,8 @@ ETHEREUM选项:
 --dev.period value  开发者模式下挖矿周期 (0 = 仅在交易时) (默认: 0)--dev               使用POA共识网络，默认预分配一个开发者账户并且会自动开启挖矿。--dev.period value  开发者模式下挖矿周期 (0 = 仅在交易时) (默认: 0)
 
 ```
-ETHASH 选项:
+### ETHASH 选项:
+
 ```
 --ethash.cachedir                        ethash验证缓存目录(默认 = datadir目录内)
 --ethash.cachesinmem value               在内存保存的最近的ethash缓存个数  (每个缓存16MB ) (默认: 2)
@@ -109,14 +111,15 @@ ETHASH 选项:
 
 ```
 
-性能调优的选项:
+### 性能调优的选项:
+
 ```
 --cache value                分配给内部缓存的内存MB数量，缓存值(最低16 mb /数据库强制要求)(默认:128)
 --trie-cache-gens value      保持在内存中产生的trie node数量(默认:120)
 ```
 
+### 帐户选项:
 
-帐户选项:
 ```
 --unlock value              需解锁账户用逗号分隔
 --password value            用于非交互式密码输入的密码文件
@@ -139,8 +142,8 @@ ETHASH 选项:
 --nodekeyhex value      十六进制的P2P节点密钥(用于测试)
 ```
 
+### 矿工选项:
 
-矿工选项:
 ```
 --mine                  打开挖矿
 --minerthreads value    挖矿使用的CPU线程数量(默认值:8)
@@ -150,21 +153,21 @@ ETHASH 选项:
 --extradata value       矿工设置的额外块数据(默认=client version)
 ```
 
+### GAS价格选项:
 
-GAS价格选项:
 ```
 --gpoblocks value      用于检查gas价格的最近块的个数  (默认: 10)
 --gpopercentile value  建议gas价参考最近交易的gas价的百分位数，(默认: 50)
 ```
 
+### 虚拟机的选项:
 
-虚拟机的选项:
 ```
 --vmdebug        记录VM及合约调试信息
 ```
 
+### 日志和调试选项:
 
-日志和调试选项:
 ```
 --metrics            启用metrics收集和报告
 --fakepow            禁用proof-of-work验证
@@ -181,29 +184,29 @@ GAS价格选项:
 --trace value               将execution trace写入指定文件
 ```
 
+### WHISPER实验选项:
 
-WHISPER实验选项:
 ```
 --shh                        启用Whisper
 --shh.maxmessagesize value   可接受的最大的消息大小 (默认值: 1048576)
 --shh.pow value              可接受的最小的POW (默认值: 0.2
 ```
 
+### 弃用选项：
 
-弃用选项：
 ```
 --fast     开启快速同步
 --light    启用轻客户端模式
 ```
 
+### 其他选项:
 
-其他选项:
 ```
 –help, -h    显示帮助
 ```
 
+### 版权：
 
-版权：
 ```
 Copyright 2013-2017 The go-ethereum Authors
 ```
