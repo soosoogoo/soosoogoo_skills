@@ -4,8 +4,6 @@
 
 
 
-
-
 安装libdb4
 
 > <https://dl.fedoraproject.org/pub/epel/6/x86_64/Packages/l/>
@@ -15,6 +13,23 @@
 
 
 ### 官方推荐使用ubantu
+
+官方安装文档
+
+<https://github.com/OmniLayer/omnicore/blob/master/doc/build-unix.md>
+
+
+
+```shell
+apt-get update
+apt-get upgrade
+```
+
+
+
+
+
+
 
 
 
@@ -71,10 +86,5 @@ make && make install
 
 
 
-```
-apt-get update
-apt-get upgrade
-
-```
 
 
