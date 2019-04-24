@@ -35,9 +35,13 @@ nohup ./geth  &
 | rpcport       | HTTP-RPC服务器端口地址，默认为8545                           |
 | networkid     | 网络标识，私有链取一个大于4的随意的值                        |
 
+### 启动
 
-
+```shell
 nohup  ./geth --rpc --rpcaddr 192.168.3.31 --rpcapi eth,web3,admin,personal,net &  
+```
+
+
 
 
 
