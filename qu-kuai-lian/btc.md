@@ -2,7 +2,8 @@ usdt 目前支持3种
 omnicore,trx,eth
 
 usdt搭建参考资料
-https://www.jianshu.com/p/bd573e2df746
+cetnos : https://blog.csdn.net/YAYAWXQ_QQ_COM/article/details/80418896
+Ubuntu : https://www.jianshu.com/p/bd573e2df746
 
 命令参考
 https://www.jianshu.com/p/4a8054146ef1
