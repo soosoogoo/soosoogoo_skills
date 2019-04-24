@@ -62,4 +62,5 @@
   * [钱包搭建](qu-kuai-lian/qian-bao-da-jian.md)
     * ETH
     * [BTC](qu-kuai-lian/btc.md)
+      * [安装omniCore](qu-kuai-lian/btc/an-zhuang-omnicore.md)
 
