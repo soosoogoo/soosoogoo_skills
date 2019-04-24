@@ -38,6 +38,7 @@ apt-get upgrade
 ```shell
 # BITCOIN_ROOT=$(pwd)
 mkdir /data/usdt
+cd /data/usdt
 git clone https://github.com/OmniLayer/omnicore.git
 
 # Pick some path to install BDB to, here we create a directory within the bitcoin directory
