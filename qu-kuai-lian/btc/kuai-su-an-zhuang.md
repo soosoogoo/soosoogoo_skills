@@ -23,6 +23,13 @@ https://bintray.com/artifact/download/omni/OmniBinaries/omnicore-0.4.0-x86_64-li
 
 
 
+
+
+<http://www.omnilayer.org/download.html>
+<https://bitcoin.org/zh_CN/download>
+
+
+
 默认配置文件
 
 ```shell
