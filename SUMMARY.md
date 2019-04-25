@@ -51,6 +51,7 @@
 ---
 
 * [Go](go.md)
+* [PHP](php.md)
 * [Linux](linux.md)
   * [常用命令](linux/chang-yong-ming-ling.md)
 * [Python2](python2.md)
