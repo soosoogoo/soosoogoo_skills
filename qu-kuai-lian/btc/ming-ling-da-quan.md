@@ -1,3 +1,6 @@
+### BTC(USDT)命令大全
+
+```
 == Blockchain ==
 clearmempool
 getbestblockhash
@@ -202,3 +205,5 @@ sendtoaddress "bitcoinaddress" amount ( "comment" "comment-to" subtractfeefromam
 setaccount "bitcoinaddress" "account"
 settxfee amount
 signmessage "bitcoinaddress" "message"
+```
+
