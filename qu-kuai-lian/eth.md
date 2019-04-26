@@ -12,5 +12,7 @@
 [GETH RPC 中文文档](http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/6/)
 
 
+ETH 常见错误 : http://cw.hubwiz.com/card/c/ethereum-FAQ/
+
 
 
