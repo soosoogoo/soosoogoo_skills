@@ -14,7 +14,7 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 
 
 启动
-./omnicored
+./bitcoind -daemon
 
 停止
 ./omnicore-cli stop
