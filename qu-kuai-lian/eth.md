@@ -6,6 +6,9 @@
 
 [ETH gitbook 文档英文](https://ethereum.gitbooks.io/frontier-guide/content/ethereum.html) 
 
+### ETH rpc 由 omni api 和  btc原生api构成
+
+
 
 [ETH RPC 中文文档](http://cw.hubwiz.com/card/c/ethereum-json-rpc-api/1/3/2/) 
 
