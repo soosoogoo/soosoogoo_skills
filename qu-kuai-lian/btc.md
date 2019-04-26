@@ -16,7 +16,8 @@ omniapi官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnico
 http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
 
+
+
+参考资料
 说明文档:https://www.jianshu.com/p/4a8054146ef1
-
-
 中文文档:https://www.codetd.com/article/1692438
