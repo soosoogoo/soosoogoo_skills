@@ -69,4 +69,5 @@
     * [BTC](qu-kuai-lian/btc.md)
       * [安装omniCore](qu-kuai-lian/btc/an-zhuang-omnicore.md)
       * [快速安装](qu-kuai-lian/btc/kuai-su-an-zhuang.md)
+      * [命令大全](qu-kuai-lian/btc/ming-ling-da-quan.md)
 
