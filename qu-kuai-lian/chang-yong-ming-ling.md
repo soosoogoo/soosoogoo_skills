@@ -13,6 +13,9 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 <https://www.omniwallet.org/explorer/assets>
 
 
+启动
+./omnicored
+
 停止
 ./omnicore-cli stop
 
