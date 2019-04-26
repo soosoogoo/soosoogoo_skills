@@ -11,3 +11,7 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 ```
 
 <https://www.omniwallet.org/explorer/assets>
+
+
+
+vim  /home//ops/.bitcoin/bitcoin.conf
