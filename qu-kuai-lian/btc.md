@@ -10,7 +10,7 @@ Ubuntu : https://www.jianshu.com/p/bd573e2df746
 
 
 
-api官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
+omniapi官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
 
 说明文档:https://www.jianshu.com/p/4a8054146ef1
 
