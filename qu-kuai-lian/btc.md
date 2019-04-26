@@ -22,7 +22,7 @@ omniapi官方英文文档:https://github.com/OmniLayer/omnicore/blob/master/src/
 
 OMNI RPC中文文档:http://cw.hubwiz.com/card/c/omni-rpc-api/
 
-BTC RPC 文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
+BTC RPC中文文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
 
 
