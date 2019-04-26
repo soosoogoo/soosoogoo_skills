@@ -20,9 +20,9 @@ usdt编译安装搭建参考资料:
 omniapi官方英文文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
 
 
-OMNI RPC中文文档:http://cw.hubwiz.com/card/c/omni-rpc-api/
+OMNI-RPC中文文档:http://cw.hubwiz.com/card/c/omni-rpc-api/
 
-BTC RPC中文文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
+BTC-RPC中文文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
 
 
