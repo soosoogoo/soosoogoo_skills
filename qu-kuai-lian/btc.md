@@ -13,7 +13,7 @@ Ubuntu : https://www.jianshu.com/p/bd573e2df746
 
 omniapi官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
 
-http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
+BTC RPC 文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
 
 
