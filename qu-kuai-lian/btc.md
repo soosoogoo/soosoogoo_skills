@@ -27,7 +27,7 @@ BTC-RPC中文文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
 
 
 
-参考资料
+参考资料:
 
 https://www.jianshu.com/p/4a8054146ef1
 
