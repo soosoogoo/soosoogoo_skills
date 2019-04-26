@@ -1,19 +1,13 @@
-原文地址 http://www.cnblogs.com/tinyxiong/p/7918706.html
-原始链接：https://learnblockchain.cn/2017/11/29/geth_cmd_options/
-深入浅出区块链 - 系统学习区块链，打造最好的区块链技术博客
+> 命令用法
+>
+> geth [选项] 命令 [命令选项] [参数…]
+>
+> 版本：
+> 1.7.3-stable
 
-Geth在以太坊智能合约开发中最常用的工具（必备开发工具），一个多用途的命令行工具。
-熟悉Geth可以让我们有更好的效率，大家可收藏起来作为Geth命令用法手册。 本文主要是对geth help的翻译，基于最新的geth 1.7.3-stable版本。
-如果你还不知道geth是什么，请先阅读入门篇：以太坊是什么。
-以下开始正文。
-命令用法
+eth手册:http://cw.hubwiz.com/card/c/ethereum-json-rpc-api/1/3/2/
 
-geth [选项] 命令 [命令选项] [参数…]
-
-
-
-版本：
-1.7.3-stable
+geth手册:http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/6
 
 ### 命令:
 
@@ -210,3 +204,10 @@ geth attach
 ```
 Copyright 2013-2017 The go-ethereum Authors
 ```
+
+
+
+参考资料:
+
+原文地址 http://www.cnblogs.com/tinyxiong/p/7918706.html<br>
+原始链接：https://learnblockchain.cn/2017/11/29/geth_cmd_options/
