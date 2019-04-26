@@ -1,32 +1,31 @@
-omnicore是来bitcoin改的
+> omni是 btc封装,  usdt是btc所支持的token的一种
+>
+> 类似  erc20  和  eth,pnt 的关系
+>
+> 参考资料
+>
+> <http://www.omnilayer.org/download.html>
+> <https://bitcoin.org/zh_CN/download>
 
-参考资料
-http://www.omnilayer.org/download.html
-https://bitcoin.org/zh_CN/download
 
 
+### 快速安装
 
 btc编译好的包:
 https://bitcoin.org/bin/bitcoin-core-0.17.1/bitcoin-0.17.1-x86_64-linux-gnu.tar.gz
 
 
 
-```
+```shell
+tar -xzvf omnicore-0.4.0-x86_64-linux-gnu.tar.gz
+cd omnicore-0.4.0/bin/
 ./bitcoind -daemon
 ```
 
 
 
-
 usdt编译好的包:
 https://bintray.com/artifact/download/omni/OmniBinaries/omnicore-0.4.0-x86_64-linux-gnu.tar.gz
-
-
-
-
-
-<http://www.omnilayer.org/download.html>
-<https://bitcoin.org/zh_CN/download>
 
 
 
@@ -56,7 +55,7 @@ omnidebug=pending
 
 
 
-启动
+### 启动
 
 ```
 ./omnicored -daemon
@@ -64,7 +63,7 @@ omnidebug=pending
 
 
 
-查看区块 (如果)
+### 查看区块
 
 ```shell
 ./omnicore-cli getinfo 
@@ -93,4 +92,5 @@ root@dev-lh-usdtwallet:/data/usdt/omnicore-0.4.0/bin# ./omnicore-cli getinfo
 
 
 
-如果 blocks 一直在变多 ,则说明在同步
+> 如果 blocks 一直在变多 ,则说明在同步
+
