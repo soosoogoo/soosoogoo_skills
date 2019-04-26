@@ -1,5 +1,15 @@
 ### BTC(USDT)命令大全
 
+
+
+OMNI-RPC中文文档:http://cw.hubwiz.com/card/c/omni-rpc-api/
+
+BTC-RPC中文文档 : http://cw.hubwiz.com/card/c/bitcoin-json-rpc-api/
+
+
+
+
+
 ```
 == Blockchain ==
 clearmempool
