@@ -9,7 +9,7 @@ Ubuntu : https://www.jianshu.com/p/bd573e2df746
 见快速安装
 
 
-### BTC一般由 omni 和  btc原生api构成
+### BTC一般由 omni api 和  btc原生api构成
 
 omniapi官方文档:https://github.com/OmniLayer/omnicore/blob/master/src/omnicore/doc/rpc-api.md
 
