@@ -6,7 +6,7 @@
 
 [ETH gitbook 文档英文](https://ethereum.gitbooks.io/frontier-guide/content/ethereum.html) 
 
-### ETH rpc 由 geth-rpc 和  btc原生api构成
+### ETH rpc 由 geth-rpc 和  eth原生api构成
 
 
 
