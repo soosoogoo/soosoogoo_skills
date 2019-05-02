@@ -20,3 +20,7 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 ./omnicore-cli stop
 
 vim  /home//ops/.bitcoin/bitcoin.conf
+
+
+rpcallowip=192.168.3.28
+rpcallowip=119.23.79.237

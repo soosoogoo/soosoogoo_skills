@@ -57,6 +57,7 @@
       * [快速安装](qu-kuai-lian/btc/kuai-su-an-zhuang.md)
       * [命令大全](qu-kuai-lian/btc/ming-ling-da-quan.md)
   * [钱包管理](qu-kuai-lian/chang-yong-ming-ling.md)
+* [算法](suan-fa.md)
 
 ---
 
