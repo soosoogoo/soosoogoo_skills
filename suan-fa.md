@@ -1,3 +1,9 @@
+https://coggle.it/diagram/XMljvqW0VAK8JJx0/t/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E7%AE%97%E6%B3%95
+
+
+
+
+
 正常工作中, curd 太多
 并且通常不会处理很复杂的程序, 一般情况下  可扩展性 要求会比时间空间高
 
