@@ -58,6 +58,8 @@
       * [命令大全](qu-kuai-lian/btc/ming-ling-da-quan.md)
   * [钱包管理](qu-kuai-lian/chang-yong-ming-ling.md)
 * [算法](suan-fa.md)
+  * [最优求解](suan-fa/dong-tai-gui-hua.md)
+    * [递归](suan-fa/dong-tai-gui-hua/dong-tai-gui-hua.md)
 * 数据结构
 
 ---
