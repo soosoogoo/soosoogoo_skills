@@ -6,8 +6,6 @@
   * [cloudera hadoop大数据平台实战指南](du-shu-bi-ji/cloudera-hadoopda-shu-ju-ping-tai-shi-zhan-zhi-nan.md)
 * [工具类](chapter1.md)
   * [Gitbook](chapter1/gitbook.md)
-  * [CDH](chapter1/cdh.md)
-  * [Cancal](chapter1/cancal.md)
   * [常用工具集](chapter1/chang-yong-gong-ju-ji.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
