@@ -1,13 +1,13 @@
-算法可视化
+### 算法可视化
 https://visualgo.net/zh/sorting
 
+![image-20190508155511881](https://ws3.sinaimg.cn/large/006tNc79ly1g2typ6k9mfj31p50u0jzr.jpg)
 
 
 
 
 
-
-流程图生成工具
+### 流程图生成工具
 https://www.websequencediagrams.com/
 
 
@@ -16,8 +16,17 @@ https://www.websequencediagrams.com/
 
 
 
-算法题视频讲解
+### 算法题视频讲解
 https://algocasts.io/account
+
+
+
+
+
+![img](https://pic3.zhimg.com/50/v2-55bdaa0253026d20564c7da9f8c3dcff_hd.gif)
+
+
+
 
 
 google docs
