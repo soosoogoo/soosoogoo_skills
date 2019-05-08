@@ -9,6 +9,7 @@
   * [Mysql](chapter1/mysql.md)
   * [CDH](chapter1/cdh.md)
   * [Cancal](chapter1/cancal.md)
+  * [常用工具集](chapter1/chang-yong-gong-ju-ji.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
