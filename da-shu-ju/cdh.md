@@ -1,3 +1,6 @@
+官方手册:
+https://www.cloudera.com/documentation/enterprise/6/6.2/topics/installation_reqts.html#pre-install
+
 adoop是一个开源项目，Cloudera对Hadoop进行了商业化，简化了安装过程，并对hadoop做了一些封装。
 
  
