@@ -18,6 +18,7 @@
     * [安装过程](mysql/canal/an-zhuang-guo-cheng.md)
   * [ETL](da-shu-ju/etl.md)
     * [petl](da-shu-ju/etl/petl.md)
+    * [etl](da-shu-ju/etl/etl.md)
   * [调度框架](da-shu-ju/diao-du-kuang-jia.md)
     * [azkaban](da-shu-ju/azkaban.md)
   * [Sqoop](da-shu-ju/sqoop.md)
