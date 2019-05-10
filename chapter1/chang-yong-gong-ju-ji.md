@@ -36,3 +36,9 @@ https://docs.google.com/drawings/d/14d1_uF1RayFr4GRsN8FwqPUOxVl7qOc4S456jS2YAKA/
 
 写笔记
 https://www.zybuluo.com
+
+
+
+
+idea汉化包
+https://github.com/pingfangx/jetbrains-in-chinese
