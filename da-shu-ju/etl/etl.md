@@ -19,3 +19,12 @@
 30 5 * * * sh /home/ops/al/profit_loss_day.sh
 ###盈亏快照 
 30 5 * * * sh /home/ops/al/profit_loss_snapshot.sh
+
+
+
+
+
+
+
+穿仓 -> 均摊
+
