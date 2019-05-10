@@ -41,3 +41,9 @@ https://www.zybuluo.com
 
 idea汉化包
 https://github.com/pingfangx/jetbrains-in-chinese
+
+打开Finder,并选择应用程序
+右击Intellij Idea，选择“显示包内容”。
+在打开的Contents目录中找到lib目录。
+将下载的汉化包复制粘贴到lib目录中。
+重启IntelliJ IDEA。
