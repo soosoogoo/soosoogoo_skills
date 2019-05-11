@@ -1,0 +1,1 @@
+php think crud  --db=db_scloud --table=static_channel --menu=1

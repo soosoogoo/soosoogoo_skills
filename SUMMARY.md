@@ -7,6 +7,8 @@
 * [工具类](chapter1.md)
   * [Gitbook](chapter1/gitbook.md)
   * [常用工具集](chapter1/chang-yong-gong-ju-ji.md)
+  * fastadmin
+    * [常用操作](chapter1/chang-yong-cao-zuo.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
