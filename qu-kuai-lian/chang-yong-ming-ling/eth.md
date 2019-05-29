@@ -3,7 +3,7 @@ GETH操作大全
 http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/2/
 ```
 
-### 启动eth
+### 启动eth  默认端口 30303
 
 ```shell
 #此处要注意带上 eth,web3,admin,personal,net,否则 不能使用 geth rpc 的对应库函数
