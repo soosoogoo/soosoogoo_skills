@@ -10,6 +10,11 @@ http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/2/
 nohup  geth --rpc --datadir /data/.ethereum --rpcaddr 192.168.3.31 --rpcapi eth,web3,admin,personal,net &
 
 
+nohup  geth --rpc --datadir /data/.ethereum --rpcaddr 192.168.3.31 --rpcapi eth,web3,admin,personal,net &
+
+
+
+
 ```
 
 ### 杀eth
