@@ -12,9 +12,6 @@ nohup  geth --rpc --datadir /data/.ethereum --rpcaddr 192.168.3.31 --rpcapi eth,
 
 nohup  geth --rpc --datadir /data/.ethereum --rpcaddr 192.168.3.31 --rpcapi eth,web3,admin,personal,net &
 
-
-
-
 ```
 
 ### 杀eth
