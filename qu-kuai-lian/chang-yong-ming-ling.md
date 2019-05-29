@@ -22,6 +22,7 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 停止
 ./omnicore-cli stop
 
+#修改配置文件
 vim  /home//ops/.bitcoin/bitcoin.conf
 
 rpcallowip=192.168.3.28
