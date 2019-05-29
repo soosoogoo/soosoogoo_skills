@@ -5,12 +5,18 @@ http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/2/
 
 ### 启动eth
 
-```
+```shell
 #此处要注意带上 eth,web3,admin,personal,net,否则 不能使用 geth rpc 的对应库函数
 nohup  geth --rpc --datadir /data/.ethereum --rpcaddr 192.168.3.31 --rpcapi eth,web3,admin,personal,net &
 
 
 ```
+
+### 杀eth
+```
+ lsof -i:30303 | awk '{print $2}' | xargs  kill -9  &&  lsof -i:8545 | awk '{print $2}' | xargs  kill -9 
+```
+
 
 ### 进入控制台
 
