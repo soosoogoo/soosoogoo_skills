@@ -49,3 +49,10 @@ email.xxxxx.com
 
 
 ![image-20190531155857735](http://ww4.sinaimg.cn/large/006tNc79ly1g3kk26i5ekj30x00u0dn0.jpg)
+
+
+
+
+
+### 完成以后  .程序调用 sdk 开始发送邮件
+
