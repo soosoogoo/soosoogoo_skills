@@ -2,4 +2,4 @@
 
 50人内免费
 
-添加2条 MX 记录即可   name 填写  @
+在 cloudfare  添加2条 MX 记录即可   name 填写  @
