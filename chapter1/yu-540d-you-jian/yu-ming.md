@@ -2,7 +2,7 @@
 
 
 
-域名解析 clouldfare
+域名解析 https://dash.cloudflare.com/
 
 
 
