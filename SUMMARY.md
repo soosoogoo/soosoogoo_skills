@@ -7,7 +7,7 @@
 * [工具类](chapter1.md)
   * [Gitbook](chapter1/gitbook.md)
   * [常用工具集](chapter1/chang-yong-gong-ju-ji.md)
-  * fastadmin
+  * [fastadmin](chapter1/fastadmin.md)
     * [常用操作](chapter1/chang-yong-cao-zuo.md)
   * [域名-邮件](chapter1/yu-540d-you-jian.md)
     * [域名](chapter1/yu-540d-you-jian/yu-ming.md)
