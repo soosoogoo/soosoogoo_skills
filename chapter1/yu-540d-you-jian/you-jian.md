@@ -28,8 +28,24 @@ email.xxxxx.com
 
 
 
+### 添加完成以后 ,点击验证 
 
 
 
 
-### 添加完成以后 ,点击验证 即可使用
+
+
+
+### 配置发信地址
+
+![image-20190531155626746](http://ww1.sinaimg.cn/large/006tNc79ly1g3kjzjxmw7j31eg0u0k3t.jpg)
+
+
+
+
+
+
+
+
+
+![image-20190531155857735](http://ww4.sinaimg.cn/large/006tNc79ly1g3kk26i5ekj30x00u0dn0.jpg)
