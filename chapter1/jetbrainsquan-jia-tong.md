@@ -15,4 +15,7 @@ https://github.com/pingfangx/TranslatorX
 
 use  namespace  自动排序 ctrl+alt+0
 
-git拉代码
+git拉代码  ctrl+k  
+git commit  ctrl+k
+git push  ctrl+commod+k
+
