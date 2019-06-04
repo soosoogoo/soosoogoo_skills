@@ -12,7 +12,7 @@
   * [域名-邮件](chapter1/yu-540d-you-jian.md)
     * [域名](chapter1/yu-540d-you-jian/yu-ming.md)
     * [邮件](chapter1/yu-540d-you-jian/you-jian.md)
-  * 编辑器
+  * [编辑器](chapter1/bian-ji-qi.md)
     * [Jetbrains全家桶](chapter1/jetbrainsquan-jia-tong.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)

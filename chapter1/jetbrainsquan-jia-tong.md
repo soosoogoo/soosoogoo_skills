@@ -3,6 +3,15 @@
 ```shell
 翻译插件:https://github.com/YiiGuxing/TranslationPlugin#actions
 
+ctrl+shift+x
+ctrl+shift+y
+
+
+
+
+
+
+
 ```
 
 
