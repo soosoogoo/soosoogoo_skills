@@ -2,8 +2,6 @@
 GETH操作大全
 http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/2/
 ```
-
-
 利用防火墙 开控制黑白名单
 
 
