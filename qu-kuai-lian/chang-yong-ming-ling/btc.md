@@ -15,6 +15,8 @@ http://cw.hubwiz.com/card/c/omni-rpc-api/1/1/3/
 #启动
 ./omnicored -daemon -overrideforcedshutdown
 
+./omnicore-cli getinfo 
+
 
 停止
 ./omnicore-cli stop

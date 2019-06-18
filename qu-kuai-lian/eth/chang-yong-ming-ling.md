@@ -1,4 +1,4 @@
-```
+info```
 GETH操作大全
 http://cw.hubwiz.com/card/c/geth-rpc-api/1/4/2/
 ```
