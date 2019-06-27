@@ -14,6 +14,7 @@
     * [邮件](chapter1/yu-540d-you-jian/you-jian.md)
   * [编辑器](chapter1/bian-ji-qi.md)
     * [Jetbrains全家桶](chapter1/jetbrainsquan-jia-tong.md)
+  * [mac工具集](chapter1/macgong-ju-ji.md)
 * [大数据](da-shu-ju.md)
   * [前期调研](da-shu-ju/qian-qi-diao-yan.md)
   * [基础知识](da-shu-ju/ji-chu-zhi-shi.md)
